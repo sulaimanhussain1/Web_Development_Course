@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Addmission Form</h2>
+    <form action="/database.php">
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="username">UserName  : </label>
+            <input type="text" id="username" name="username" ><br><br>
+            <label for="password">Password  : </label>
+            <input type="password" id="password" name="password" ><br><br>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" ><br><br>
+            <label for="nic">NIC  : </label>
+            <input type="text" id="nic" name="nic" ><br><br>
+            Gender : <input type="radio" id="male" name="gender"> <label for="male">Male</label><input type="radio" id="female" name="gender"> <label for="female">Female</label><input type="radio" id="other" name="gender"> <label for="other">Others</label><br><br>
+            Courses : <input type="checkbox" id="AI" name="courses"> <label for="AI">Artificial Intelligence</label><input type="checkbox" id="CNC" name="courses"> <label for="CNC">Cloud Native Computing</label><input type="checkbox" id="BCC" name="courses"> <label for="BCC">BlockChain</label><input type="checkbox" id="meta" name="courses"> <label for="meta">Web3.O and Metaverse</label><br><br>
+            Date : <input type="date"><br><br>
+            Picture : <input type="file"><br><br>
+            Country : <select name="country" id="country">
+                <option value="PK">Pakistan</option>
+                <option value="IN">India</option>
+                <option value="AUS">Australia</option>
+                <option value="NZ">Newzealand</option>
+                <option value="ENG">England</option>
+                <option value="SA">South Africa</option>
+            </select><br><br>
+            <textarea name="comment" id="" cols="30" rows="10" placeholder="Enter your query here....."></textarea><br><br>
+            <input type="submit">
+            <button>Cancel</button>
+
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
