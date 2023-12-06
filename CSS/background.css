@@ -1,0 +1,29 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.back_color{
+    color: aliceblue;
+    background-color: rgb(10, 10, 10 , 0.4);
+}
+
+h1{
+    color: aqua;
+    background-color: yellow;
+}
+
+#text{
+    color: rgb(190, 111, 111);
+}
+
+#text1{
+    color: #6facc2;
+}
+
+/* alpha 0 - 1 */
+
+
+/* background shorthand */
+/* background : color , image  , repeat , attachment . position */

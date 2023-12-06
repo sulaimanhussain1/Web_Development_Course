@@ -1,0 +1,62 @@
+
+/* Float just for knowledge */
+#container{
+    margin: 10px;
+    border: 2px solid;
+}
+
+#box-a{
+    background-color: red;
+    float: right;
+}
+
+#float{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* This is flex container */
+#heading{
+    text-align: center;
+}
+
+.flexbox{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+#container1{
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#flex1{ background-color: aqua;}
+#flex2{ background-color: red;}
+#flex3{ background-color: blue;}
+#flex4{ background-color: brown;}
+
+/* 
+container properties :
+main axis
+display
+flex-direction
+justify-content
+flex-wrap
+Align-Items
+Align-content
+
+cross-axis
+align-self
+flex-shrink
+flex-grow
+order */

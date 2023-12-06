@@ -1,0 +1,32 @@
+
+
+/* height and width in pixels */
+
+/* .box{
+    height: 40px;
+    width: 40px;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+
+// visibility : hidden
+
+#box2{
+    background-color: burlywood;
+    visibility : hidden;
+}
+
+#box3{
+    background-color: rgb(104, 103, 100);
+} */
+
+#icon{
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/myntra.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

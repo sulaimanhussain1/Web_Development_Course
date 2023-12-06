@@ -1,0 +1,53 @@
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(3, 83, 83);
+    color:aliceblue;
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#box1{
+    animation-name: ghoomna;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    /* shorthand property */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+#box2{
+    margin-top: 15px;
+    animation: taiz 2s ease-in-out 1s infinite alternate;
+}
+
+#box3{
+    margin-top: 15px;
+    animation: triangle 2s ease-in-out 1s infinite alternate;
+}
+
+@keyframes ghoomna {
+    from{left: 10px;}
+    to{left: 300px;}
+    
+}
+
+@keyframes taiz{
+    0%{left: 10px;}
+    50%{left: 50px;}
+    60%{left: 240px;}
+    100%{left: 300px;}
+}
+
+@keyframes triangle{
+    0%{left: 10px; top: 0px;}
+    50%{left: 150px; top: 100px;}
+    100%{left: 300px; top: 0px;}
+}

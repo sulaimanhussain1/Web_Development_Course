@@ -1,0 +1,29 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    transition: all 1s ease-in-out ;
+
+}
+#box1:hover{
+    background-color: lightcoral;
+   transform: rotate(45deg);
+}
+#box2:hover{
+    background-color: lightgreen;
+   transform: scale(2);
+}
+#box3:hover{
+    background-color: burlywood;
+   transform: translatey(50px);
+}
+#box4:hover{
+    background-color: lightsalmon;
+   transform: skew(45deg);
+}

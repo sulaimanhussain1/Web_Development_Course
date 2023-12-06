@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .box{
+    background-color: blue;
+    color: aliceblue;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    /* display: inline-block; */
+} 
+
+/*
+#box2{
+    // visibility: hidden;
+    // display: none; 
+}
+*/
+
+/* Relative units help us to make our website responsive */
+/* % em rem vh vw */
+/* 
+#parent{
+    background-color: cadetblue;
+    height: 400px;
+    width: 400px;
+}
+
+.box{
+    height: 25%;
+    width: 25%;
+    background-color: aqua;
+    margin: 10px;
+}
+
+rem : root element k font size ko inherit krta hai 
+em : ye us element k parent k font size ko inherit krta hai 
+vw , vh : viewport width and height ye screen k hisaab apna size leta :horizontal */
+
+
+
+/* position property  */
+#box1{
+    position: static;
+}
+
+#box2{
+     /* ye apni original position se move krta hai */
+    position: relative;
+    top: 4px;
+    left: 88px;
+    z-index: 2;
+}
+
+#box3{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+#box4{
+    position: fixed;
+    top: 140px;
+    left: 120px;
+    z-index: 5;
+}

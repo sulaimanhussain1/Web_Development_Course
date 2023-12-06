@@ -1,0 +1,15 @@
+
+#first1{
+    font-size: 24px;
+}
+
+#second1 , #third1{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#third1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* icons using fonts : we use google fonts or fontawesome  */

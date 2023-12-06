@@ -1,0 +1,25 @@
+
+/* Universal Selector */
+*{
+    color: red;
+}
+
+/* id selector  */
+#my-head{
+    color: aqua;
+}
+
+/* class selector */
+.head{
+    color: blue;
+}
+
+/* group select */
+#my-head ,.head{
+    color: hotpink;
+}
+
+/* descendant selector */
+#first p{
+    color: grey;
+}

@@ -1,0 +1,37 @@
+
+#center{
+    text-align: center;
+    /* text decoration */
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: blue;
+}
+
+#right{
+    text-align: right;
+    text-decoration: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+}
+
+/* by :default */
+#left{
+    text-align: left;
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: green;
+}
+
+#link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+#first{
+    line-height: 6px;
+}
+
+#second{
+    line-height: 28px;
+}

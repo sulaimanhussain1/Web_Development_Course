@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set 1</title>
+    <style>
+        #loading-container{
+            height: 25px;
+            width: 90%;
+            background-color: rgb(209, 202, 202);
+            border: 2px solid rgb(7, 7, 7);
+            border-radius: 20px;
+            position: relative;
+            left: 4%;
+        }
+
+        #loading-bar{
+            height: 25px;
+            background-color: green;
+            border-radius: 20px;
+            animation: loading 10s ease-in-out;
+        }
+
+        @keyframes loading {
+            0%{width: 0%;}
+            50%{width: 50%;}
+            60%{width: 90%;} 
+            100%{width: 100%;}           
+        }
+
+    </style>
+</head>
+<body>
+    <div id="loading-container">
+        <div id="loading-bar"> </div>
+    </div>
+</body>
+</html>
